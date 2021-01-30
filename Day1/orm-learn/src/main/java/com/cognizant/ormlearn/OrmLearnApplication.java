@@ -62,6 +62,9 @@ public class OrmLearnApplication {
 		countryService = context.getBean(CountryService.class);
 		testGetAllCountries();
 		getAllCountriesTest();
+		testAddCountry();
+		updateCountryTest();
+		deleteCountryTest();
 	}
 
 }
