@@ -1,0 +1,261 @@
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="./style/style.css">
+
+    <title>Menu Item List Customer</title>
+  </head>
+  <body>
+  		<div class="container-fluid">
+		  <div class="row">
+		  
+				<div class="col-md-12" id="navHeader">			
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<a class="navbar-brand" id="brand" href="menu-item-list-customer.html"><i class="material-icons">local_dining</i>truYum</a>
+						<button class="navbar-toggler" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+							<span class="navbar-toggler-icon" ></span>
+						</button>
+
+						<div class="navbar-collapse collapse ">
+							<ul class="navbar-nav ml-auto">
+							  <li class="nav-item">
+								<a class="nav-link" id="navItems" href="#">Menu Items</a>
+							  </li>
+							  <li class="nav-item">
+								<a class="nav-link" id="navItems" href="cart.html">Cart</a>
+							  </li>
+							</ul>
+						</div>
+					</nav>
+				</div>				
+			
+		  </div>
+		</div>
+
+			<div class="container-fluid" id="bgImage">
+				<div class="form-group">
+					<h2 id="findfood">Find Food</h2>  
+				 <div class="input-container">
+					<i class="material-icons" id="cafe">local_cafe</i>
+					<input type="text" class="form-control"  placeholder="Search food" >
+				  </div>
+
+				</div>	
+			</div>	
+
+<br>
+  		<div class="container-fluid">
+		<div class="row">
+		
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+							<img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" class="card-img-top" alt="sandwich">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left">Sandwich</h5>
+									</div>	
+									<div class="col">
+											<h5 class="card-title text-right" id="price">Rs. 99</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left">Main Course</p>
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><i class="material-icons icon-size">local_shipping</i><span class="badge badge-primary">FREE</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="container p-2 mt-1 message" id="message1" >
+									<p id="itemAdded">Item added successfully.</p>
+									</div>
+								</div>
+							<div class="row">
+									<div class="col">
+									</div>	
+									<div class="col-8">
+										<a href="#"  onclick="document.getElementById('message1').style.display='block';"><button class="btn btn-danger" id="addToCart"><i class="material-icons">add_shopping_cart</i>Add to Cart</button></a>
+									</div>
+								</div>											
+							</div>	
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+							<img src="https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="burger">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left">Burger</h5>
+									</div>	
+									<div class="col">
+											<h5 class="card-title text-right" id="price">Rs. 129</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left">Main Course</p>
+									</div>	
+									<div class="col">
+									</div>
+								</div>
+								<div class="row">
+									<div class="container p-2 mt-1 message" id="message2" >
+									<p id="itemAdded">Item added successfully.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+									</div>	
+									<div class="col-8">
+										<a href="#"  onclick="document.getElementById('message2').style.display='block';"><button class="btn btn-danger" id="addToCart"><i class="material-icons">add_shopping_cart</i>Add to Cart</button></a>
+									</div>
+								</div>											
+							</div>	
+					</div>
+				</div>	
+
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+							<img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80" class="card-img-top" alt="pizza">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left">Pizza</h5>
+									</div>	
+									<div class="col">
+											<h5 class="card-title text-right" id="price">Rs. 149</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left">Main Course</p>
+									</div>	
+									<div class="col">
+									</div>
+								</div>
+								<div class="row">
+									<div class="container p-2 mt-1 message" id="message3" >
+									<p id="itemAdded">Item added successfully.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+									</div>	
+									<div class="col-8">
+										<a href="#"  onclick="document.getElementById('message3').style.display='block';"><button class="btn btn-danger" id="addToCart"><i class="material-icons">add_shopping_cart</i>Add to Cart</button></a>
+									</div>
+								</div>											
+							</div>	
+					</div>
+				</div>		
+
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+							<img src="https://images.unsplash.com/photo-1526230427044-d092040d48dc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="french-fries">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left">French Fries</h5>
+									</div>	
+									<div class="col">
+											<h5 class="card-title text-right" id="price">Rs. 57</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left">Main Course</p>
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><i class="material-icons icon-size">local_shipping</i><span class="badge badge-primary">FREE</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="container p-2 mt-1 message" id="message4" >
+									<p id="itemAdded">Item added successfully.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+									</div>	
+									<div class="col-8">
+										<a href="#"  onclick="document.getElementById('message4').style.display='block';"><button class="btn btn-danger" id="addToCart"><i class="material-icons">add_shopping_cart</i>Add to Cart</button></a>
+									</div>
+								</div>											
+							</div>	
+					</div>	
+				</div>	
+		</div>		
+
+		<div class="row">
+		
+			<div class="col-md-3 col-sm-6">
+				<div class="card">
+					<img src="https://images.unsplash.com/photo-1564355808583-ac3dc34b3a43?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=339&q=80" height="220" class="card-img-top" alt="Chocolate Brownie">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left">Chocolate Brownie</h5>
+									</div>	
+									<div class="col">
+											<h5 class="card-title text-right" id="price">Rs. 32</h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left">Dessert</p>
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><i class="material-icons icon-size">local_shipping</i><span class="badge badge-primary">FREE</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="container p-2 mt-1 message" id="message5" >
+									<p id="itemAdded">Item added successfully.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+									</div>	
+									<div class="col-8">
+										<a href="#"  onclick="document.getElementById('message5').style.display='block';"><button class="btn btn-danger" id="addToCart"><i class="material-icons">add_shopping_cart</i>Add to Cart</button></a>
+									</div>
+								</div>
+											
+							</div>	
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				</div>
+			<div class="col-md-3 col-sm-6">
+				</div>
+			<div class="col-md-3 col-sm-6">
+				</div>
+
+
+		</div>
+		</div>
+<br>
+			<footer id="footerscroll"> Copyright 2019</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
