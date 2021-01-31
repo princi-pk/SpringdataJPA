@@ -1,0 +1,98 @@
+
+.material-icons{
+	vertical-align:middle;
+}
+#bgImage{
+	background-image: url("https://images.unsplash.com/photo-1467453678174-768ec283a940?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80");
+	height: 150px;
+	width: 100%;
+}
+.input-container {
+  display: flex;
+}
+#cafe {
+  padding: 8px;
+  background: #D3D3D3;
+}
+#findfood{
+	color:white;
+}
+#navHeader{
+	background-color:#ff4d4d; 
+	color:white;
+}
+#brand{
+	color:white;
+}
+#navItems{
+	color:white;
+}
+#footer{
+	background-color:#ff4d4d;
+	bottom:0;
+	position:fixed;
+	width:100%;
+	color:white;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+}
+#footerscroll{
+	background-color:#ff4d4d;
+	color:white;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+}
+	  .message {
+        border-radius: 0.25rem;
+        display: none;
+      }
+#addToCart{
+	float:right;
+}
+#edit{
+	float:right;
+}
+#detailsSaved{
+	background-color:#b0e0e6;
+	color:#008000;
+	font-size:20px;
+	padding-left:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	}
+#itemAdded{
+	background-color:#b0e0e6;
+	color:#008000;
+	padding-left:10px;
+	padding-top:15x;
+	padding-bottom:10px;
+	}
+#itemDelete{
+	background-color:#b0e0e6;
+	color:#008000;
+	padding-left:10px;
+	padding-top:15x;
+	padding-bottom:10px;
+	}
+#price{
+	color: #DC143C;
+}
+#delete{
+	color:#A9A9A9;
+}
+#noItem{
+	background-color:#ffb6c1;
+	text-align:left;
+	padding-left:20px;
+}
+#container{
+	width:34%;
+}
+#mil{
+	color:black;
+}
+#cart{
+	width:30rem;
+}
